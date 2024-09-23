@@ -9,10 +9,6 @@
 
 - 👔 I’m working at **@useinsider**
 
-- 🖇️ And also with, [Ask To It](https://askto.it)
-
-- 👯 I’m looking to collaborate on [Translates Video](https://translates.video)
-
 - 📝 I regularly write articles on [https://emreisik.dev](https://emreisik.dev)
 
 - 🌱 I like to work with **laravel, go, vue, nextjs, tailwindcss.**
