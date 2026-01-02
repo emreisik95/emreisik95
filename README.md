@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=emreisik95" alt="emreisik95" /></a> </p>
 
-- 🔭 I’m currently working on [Professionalize It To Me](https://professionalizeitto.me)
+- 🔭 I’m currently working on [Scrumly](https://scrumly.tools)
 
 - 👔 I’m working at **@useinsider**
 
