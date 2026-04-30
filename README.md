@@ -63,8 +63,7 @@ Story estimation, backlog grooming, auto-recap. Hooks into Jira, Linear, GitHub 
 
 ## writing
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [Code From Your Phone Like a Boss: tmux + Tailscale + Termius + Claude Code = Developer Heaven](https://emreashak.medium.com/code-from-your-phone-like-a-boss-tmux-tailscale-termius-claude-code-developer-heaven-95119c704f20?source=rss-23c9ce1d0d90------2) — Jul 4, 2025- [Code From Your Phone Like a Boss: tmux + Tailscale + Termius + Claude Code = Developer Heaven](https://emreashak.medium.com/code-from-your-phone-like-a-boss-tmux-tailscale-termius-claude-code-developer-heaven-95119c704f20?source=rss-23c9ce1d0d90------2) — Jul 4, 2025- [Build Your Own AI Code Assistant: Get Claude 3.5 Sonnet in VS Code for $10/Month](https://emreashak.medium.com/how-i-got-claude-3-5-sonnet-working-for-just-10-month-and-you-can-too-8c3147ca4f4d?source=rss-23c9ce1d0d90------2) — Jan 16, 2025- [Build Your Own AI Code Assistant: Get Claude 3.5 Sonnet in VS Code for $10/Month](https://emreashak.medium.com/how-i-got-claude-3-5-sonnet-working-for-just-10-month-and-you-can-too-8c3147ca4f4d?source=rss-23c9ce1d0d90------2) — Jan 16, 2025- [Embracing the Future: PHP 8.3 &amp; Laravel 10’s Cutting-Edge Features](https://emreashak.medium.com/embracing-the-future-php-8-3-laravel-10s-cutting-edge-features-c5d34a2278e8?source=rss-23c9ce1d0d90------2) — Jan 6, 2024<!-- BLOG-POST-LIST:END -->
 
 → more at **[emreisik.dev](https://emreisik.dev)**
 
