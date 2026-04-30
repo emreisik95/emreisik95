@@ -17,7 +17,7 @@
 
 ```yaml
 location:   Istanbul · UTC+3
-day_job:    Senior Software Engineer @useinsider
+day_job:    Software Engineer @useinsider
 side_job:   Founder @scrumly · indie SaaS at @emreisikdev
 stack:      Next.js · Go · Laravel · TypeScript · Cloudflare Workers · Postgres
 philosophy: small teams · sharp tools · short PRs
