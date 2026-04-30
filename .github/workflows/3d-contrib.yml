@@ -23,10 +23,8 @@ jobs:
           mkdir -p .github
           cat > .github/profile-3d-contrib.json <<'JSON'
           [
-            { "type": "rainbow",      "file": "profile-3d-contrib/rainbow.svg" },
             { "type": "season",       "file": "profile-3d-contrib/season.svg" },
-            { "type": "city-rainbow", "file": "profile-3d-contrib/city-rainbow.svg" },
-            { "type": "git-rainbow",  "file": "profile-3d-contrib/git-rainbow.svg" }
+            { "type": "city-rainbow", "file": "profile-3d-contrib/city-rainbow.svg" }
           ]
           JSON
 
