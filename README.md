@@ -1,9 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=180&section=header&text=emre%20isik&fontSize=64&fontColor=0D1117&fontAlignY=38&desc=software%20engineer%20%C2%B7%20builder%20%C2%B7%20istanbul&descSize=18&descAlignY=62&animation=fadeIn" alt="header" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=200&section=header&text=emre%20isik&fontSize=68&fontColor=0D1117&fontAlignY=38&desc=software%20engineer%20%C2%B7%20builder%20%C2%B7%20istanbul&descSize=18&descAlignY=62&animation=fadeIn" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,100:92400E&height=200&section=header&text=emre%20isik&fontSize=68&fontColor=FFFFFF&fontAlignY=38&desc=software%20engineer%20%C2%B7%20builder%20%C2%B7%20istanbul&descSize=18&descAlignY=62&animation=fadeIn" />
+  <img alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=200&section=header&text=emre%20isik&fontSize=68&fontColor=0D1117&fontAlignY=38&desc=software%20engineer%20%C2%B7%20builder%20%C2%B7%20istanbul&descSize=18&descAlignY=62&animation=fadeIn" />
+</picture>
 
 <a href="https://emreisik.dev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=FFE066&center=true&vCenter=true&width=620&height=42&lines=software+engineer+%40+Insider;founder+%40+Scrumly;shipping+stuff+from+Istanbul;turning+caffeine+into+cloudflare+workers" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=FFE066&center=true&vCenter=true&width=640&height=46&lines=software+engineer+%40+Insider;founder+%40+Scrumly;shipping+download.fyi+from+Istanbul;turning+caffeine+into+cloudflare+workers" alt="typing" />
 </a>
 
 <br />
@@ -66,6 +70,39 @@ Story estimation, backlog grooming, auto-recap. Plays nice with Jira, Linear, Gi
 
 ---
 
+### ✦ Contribution Cityscape
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/main/profile-3d-contrib/city-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/main/profile-3d-contrib/season.svg" />
+    <img alt="3d contribution" src="https://raw.githubusercontent.com/emreisik95/emreisik95/main/profile-3d-contrib/city-rainbow.svg" />
+  </picture>
+</p>
+
+---
+
+### ✦ Snake Eats Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake.svg" />
+  </picture>
+</p>
+
+---
+
+### ✦ Latest Writing
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+→ more at **[emreisik.dev](https://emreisik.dev)**
+
+---
+
 ### ✦ Quote-of-the-Compile
 
 <p align="center">
@@ -77,5 +114,9 @@ Story estimation, backlog grooming, auto-recap. Plays nice with Jira, Linear, Gi
 <div align="center">
   <a href="https://github.com/emreisik95"><img src="https://komarev.com/ghpvc/?username=emreisik95&label=visitors&color=FFE066&style=flat-square&labelColor=0D1117" /></a>
   <br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=80&section=footer" alt="footer" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=80&section=footer" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,100:92400E&height=80&section=footer" />
+    <img alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE066,100:F59E0B&height=80&section=footer" />
+  </picture>
 </div>

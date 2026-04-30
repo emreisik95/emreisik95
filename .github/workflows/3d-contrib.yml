@@ -1,0 +1,39 @@
+name: Generate 3D Contribution
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: |
+            [
+              { "type": "rainbow",  "file": "profile-3d-contrib/rainbow.svg" },
+              { "type": "season",   "file": "profile-3d-contrib/season.svg" },
+              { "type": "city-rainbow", "file": "profile-3d-contrib/city-rainbow.svg" },
+              { "type": "git-rainbow",  "file": "profile-3d-contrib/git-rainbow.svg" }
+            ]
+
+      - name: Commit & Push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git diff --cached --quiet || git commit -m "chore: refresh 3d contribution svgs"
+          git push
