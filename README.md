@@ -1,33 +1,86 @@
-<h1 align="center">Hi 👋, I'm Emre Isik/Ashak</h1>
-<h3 align="center">A passionate software engineer from Turkey</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=emreisik95&label=Profile%20views&color=0e75b6&style=flat" alt="emreisik95" /> </p>
+<a href="https://emreisik.dev">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=900&color=FFE066&center=true&vCenter=true&width=620&height=46&lines=Emre+Isik;senior+eng+%40+Insider;founder+%40+Scrumly;shipping+stuff+from+Istanbul" alt="typing" />
+</a>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=emreisik95" alt="emreisik95" /></a> </p>
+<br />
 
-- 🔭 I’m currently working on [Scrumly](https://scrumly.tools)
+<a href="https://emreisik.dev"><img src="https://img.shields.io/badge/blog-emreisik.dev-FFE066?style=for-the-badge&labelColor=0D1117" /></a>
+<a href="https://x.com/emreisikdev"><img src="https://img.shields.io/badge/x-%40emreisikdev-FFFFFF?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117" /></a>
+<a href="https://www.linkedin.com/in/emreashak"><img src="https://img.shields.io/badge/linkedin-emreashak-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" /></a>
+<a href="mailto:hello@emreisik.dev"><img src="https://img.shields.io/badge/email-hello%40emreisik.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" /></a>
 
-- 👔 I’m working at **@useinsider**
+</div>
 
-- 📝 I regularly write articles on [https://emreisik.dev](https://emreisik.dev)
+---
 
-- 🌱 I like to work with **laravel, go, vue, nextjs, tailwindcss.**
+```yaml
+location:   Istanbul · UTC+3
+day_job:    Senior Software Engineer @useinsider
+side_job:   Founder @scrumly · indie SaaS at @emreisikdev
+stack:      Next.js · Go · Laravel · TypeScript · Cloudflare Workers · Postgres
+philosophy: small teams · sharp tools · short PRs
+            product > framework · latency > features · clarity > cleverness
+fuel:       espresso, vinyl, late-night refactors
+```
 
-- 📫 How to reach me **hello@emreisik.dev**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/emreisik_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="emreisik_" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/emreashak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="emreashak" height="30" width="40" /></a>
-<a href="https://instagram.com/emreisik" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="emreisik" height="30" width="40" /></a>
-<a href="https://medium.com/@emreashak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@emreashak" height="30" width="40" /></a>
+### Now Building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🐉 [Pixel Goblin](https://pixelgoblin.link)
+The largest curated Nintendo Switch shop on the internet.<br/>
+**56,825 titles · sub-100ms TTFB · 99%+ uptime.**
+
+Stripe-billed subscriptions, signed download URLs, edge-cached catalog at 200+ POPs. Built on Cloudflare Workers with a Go backend.
+
+`Next.js 16` `Workers` `D1` `Go` `Stripe`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧠 [Scrumly](https://scrumly.tools)
+AI-native sprint planning for teams that hate sprint planning.<br/>
+**Story estimation · backlog grooming · auto-recap.**
+
+Plays nice with Jira, Linear, GitHub Projects. Token-aware context routing keeps it fast and cheap.
+
+`Next.js` `Postgres` `OpenAI` `Vercel`
+
+</td>
+</tr>
+</table>
+
+---
+
+### Daily Drivers
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,go,laravel,php,nodejs,redis,postgres,mysql,cloudflare,docker,vercel,figma,vim&perline=8" alt="stack" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=emreisik95&show_icons=true&locale=en&layout=compact" alt="emreisik95" /></p>
+### Numbers
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=emreisik95&show_icons=true&locale=en" alt="emreisik95" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=emreisik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true&icon_color=FFE066&title_color=FFE066" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emreisik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&hide=html,css&langs_count=8&title_color=FFE066" height="170" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=emreisik95&" alt="emreisik95" /></p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=emreisik95&theme=tokyonight&hide_border=true&background=0D1117&ring=FFE066&fire=FFE066&currStreakLabel=FFE066" height="170" />
+</p>
+
+---
+
+<div align="center">
+  <sub>Turning caffeine into Cloudflare Workers since 2016 ☕</sub>
+  <br />
+  <a href="https://github.com/emreisik95"><img src="https://komarev.com/ghpvc/?username=emreisik95&label=visitors&color=FFE066&style=flat-square&labelColor=0D1117" /></a>
+</div>
