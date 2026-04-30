@@ -19,9 +19,8 @@ jobs:
 
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://emreisik.dev/feed,https://emreashak.medium.com/feed"
+          feed_list: "https://emreisik.dev/feed"
           max_post_count: 5
-          template: "- [$title]($url) — $date\n"
+          template: "<li><a href=\"$url\">$title</a> — $date</li>"
           date_format: "mmm d, yyyy"
-          filter_dates: "365"
           commit_message: "chore: refresh latest blog posts"
