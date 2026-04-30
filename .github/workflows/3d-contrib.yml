@@ -18,17 +18,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Write settings file
+        run: |
+          mkdir -p .github
+          cat > .github/profile-3d-contrib.json <<'JSON'
+          [
+            { "type": "rainbow",      "file": "profile-3d-contrib/rainbow.svg" },
+            { "type": "season",       "file": "profile-3d-contrib/season.svg" },
+            { "type": "city-rainbow", "file": "profile-3d-contrib/city-rainbow.svg" },
+            { "type": "git-rainbow",  "file": "profile-3d-contrib/git-rainbow.svg" }
+          ]
+          JSON
+
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: |
-            [
-              { "type": "rainbow",  "file": "profile-3d-contrib/rainbow.svg" },
-              { "type": "season",   "file": "profile-3d-contrib/season.svg" },
-              { "type": "city-rainbow", "file": "profile-3d-contrib/city-rainbow.svg" },
-              { "type": "git-rainbow",  "file": "profile-3d-contrib/git-rainbow.svg" }
-            ]
+          SETTING_JSON: .github/profile-3d-contrib.json
 
       - name: Commit & Push
         run: |
