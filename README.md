@@ -6,13 +6,11 @@
 
 <br />
 
-<samp>
-<a href="https://emre.zip">emre.zip</a> &nbsp;·&nbsp;
-<a href="https://emreisik.dev">blog</a> &nbsp;·&nbsp;
-<a href="https://x.com/emreisikdev">x</a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/emreashak">linkedin</a> &nbsp;·&nbsp;
-<a href="mailto:hello@emreisik.dev">email</a>
-</samp>
+<a href="https://emre.zip"><img src="https://img.shields.io/badge/emre.zip-0B0F10?style=for-the-badge&logo=astro&logoColor=4ADE80" alt="emre.zip" /></a>
+<a href="https://emreisik.dev"><img src="https://img.shields.io/badge/blog-0B0F10?style=for-the-badge&logo=rss&logoColor=4ADE80" alt="blog" /></a>
+<a href="https://x.com/emreisikdev"><img src="https://img.shields.io/badge/x-0B0F10?style=for-the-badge&logo=x&logoColor=4ADE80" alt="x" /></a>
+<a href="https://www.linkedin.com/in/emreashak"><img src="https://img.shields.io/badge/linkedin-0B0F10?style=for-the-badge&logo=linkedin&logoColor=4ADE80" alt="linkedin" /></a>
+<a href="mailto:hello@emreisik.dev"><img src="https://img.shields.io/badge/email-0B0F10?style=for-the-badge&logo=maildotru&logoColor=4ADE80" alt="email" /></a>
 
 </div>
 
@@ -61,8 +59,11 @@ Retros, Planning Poker, Team Health — no signup, no seat fees. `Next.js · Typ
 ## > the numbers
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emreisik95&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&hide=issues&bg_color=0B0F10&title_color=4ADE80&icon_color=4ADE80&text_color=E6EDF0&ring_color=4ADE80" height="165" alt="stats" />
   <img src="https://streak-stats.demolab.com?user=emreisik95&hide_border=true&background=0B0F10&stroke=1C272B&ring=4ADE80&fire=4ADE80&currStreakNum=E6EDF0&sideNums=E6EDF0&currStreakLabel=4ADE80&sideLabels=8AA0A6&dates=5F7177&date_format=M%20j%5B%2C%20Y%5D" height="165" alt="streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emreisik95&bg_color=0B0F10&color=4ADE80&line=4ADE80&point=86EFAC&area=true&area_color=4ADE80&hide_border=true&title_color=4ADE80&custom_title=contribution%20activity" alt="activity graph" />
 </p>
 
 <p align="center">
@@ -82,5 +83,5 @@ Retros, Planning Poker, Team Health — no signup, no seat fees. `Next.js · Typ
 <br />
 
 <div align="center">
-<sub><i>shipping from Muğla · open to senior roles across Europe · <a href="mailto:hello@emreisik.dev">hello@emreisik.dev</a></i></sub>
+<sub><i>shipping from Muğla · open to senior roles across Europe · hello@emreisik.dev</i></sub>
 </div>
