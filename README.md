@@ -88,6 +88,14 @@ I like systems that are easy to reason about, observable in production, and deli
 - **Design for the person on call.** Observable behavior and predictable recovery paths are product features.
 - **Own the whole outcome.** Move comfortably from product conversation to implementation, deployment, and iteration.
 
+## GitHub activity
+
+<p align="center">
+  <a href="https://github.com/emreisik95">
+    <img src="https://streak-stats.demolab.com?user=emreisik95&amp;hide_border=true&amp;background=0B0F10&amp;stroke=1C272B&amp;ring=4ADE80&amp;fire=4ADE80&amp;currStreakNum=E6EDF0&amp;sideNums=E6EDF0&amp;currStreakLabel=4ADE80&amp;sideLabels=8AA0A6&amp;dates=5F7177" height="180" alt="Emre's GitHub contribution streak" />
+  </a>
+</p>
+
 ---
 
 ## Looking for the next hard problem
