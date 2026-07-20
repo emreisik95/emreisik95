@@ -1,0 +1,40 @@
+name: Update Contribution Streak
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Test streak generator
+        run: node --test scripts/update-streak.test.mjs
+
+      - name: Generate streak card
+        run: node scripts/update-streak.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: emreisik95
+
+      - name: Publish updated card
+        run: |
+          if git diff --quiet -- assets/github-streak.svg; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak.svg
+          git commit -m "chore: refresh contribution streak"
+          git push

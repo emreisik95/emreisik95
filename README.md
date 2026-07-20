@@ -92,7 +92,7 @@ I like systems that are easy to reason about, observable in production, and deli
 
 <p align="center">
   <a href="https://github.com/emreisik95">
-    <img src="https://streak-stats.demolab.com?user=emreisik95&amp;hide_border=true&amp;background=0B0F10&amp;stroke=1C272B&amp;ring=4ADE80&amp;fire=4ADE80&amp;currStreakNum=E6EDF0&amp;sideNums=E6EDF0&amp;currStreakLabel=4ADE80&amp;sideLabels=8AA0A6&amp;dates=5F7177&amp;date_format=M%20j%5B%2C%20Y%5D" height="180" alt="Emre's GitHub contribution streak" />
+    <img src="./assets/github-streak.svg" width="100%" alt="Emre's GitHub contribution streak" />
   </a>
 </p>
 
