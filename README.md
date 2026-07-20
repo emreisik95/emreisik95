@@ -1,87 +1,103 @@
 <div align="center">
-
-<a href="https://emre.zip">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=4ADE80&center=true&vCenter=true&width=720&height=46&lines=%24+whoami+--hire;Software+Engineer+%40+Insider;backend+at+heart+%C2%B7+Go+%C2%B7+TypeScript+%C2%B7+Next.js;EU+work+authorized+%C2%B7+remote+or+relocation" alt="emre@ashak — zsh" />
-</a>
-
-<br />
-
-<a href="https://emre.zip"><img src="https://img.shields.io/badge/emre.zip-0B0F10?style=for-the-badge&logo=astro&logoColor=4ADE80" alt="emre.zip" /></a>
-<a href="https://emreisik.dev"><img src="https://img.shields.io/badge/blog-0B0F10?style=for-the-badge&logo=rss&logoColor=4ADE80" alt="blog" /></a>
-<a href="https://x.com/emreisikdev"><img src="https://img.shields.io/badge/x-0B0F10?style=for-the-badge&logo=x&logoColor=4ADE80" alt="x" /></a>
-<a href="https://www.linkedin.com/in/emreashak"><img src="https://img.shields.io/badge/linkedin-0B0F10?style=for-the-badge&logo=linkedin&logoColor=4ADE80" alt="linkedin" /></a>
-<a href="mailto:hello@emreisik.dev"><img src="https://img.shields.io/badge/email-0B0F10?style=for-the-badge&logo=maildotru&logoColor=4ADE80" alt="email" /></a>
-
+  <a href="https://emre.zip">
+    <img src="./assets/profile-banner.svg" width="100%" alt="Emre Ashak — Senior Backend Engineer" />
+  </a>
 </div>
 
 <br />
 
-```console
-emre@ashak ~ % whoami --hire
+<p align="center">
+  <strong>Senior backend engineer turning complex systems into reliable products.</strong><br />
+  <sub>Backend services · platform engineering · commerce integrations · developer tools</sub>
+</p>
 
-  Emre Ashak  (Emre Işık)
-  software engineer @ Insider · backend at heart
-  Go · TypeScript · Next.js — and the cloud plumbing between
+<p align="center">
+  <a href="https://emre.zip"><strong>Portfolio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://emre.zip/Emre-Ashak-CV.pdf"><strong>CV</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://emreisik.dev"><strong>Writing</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/emreashak"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:hello@emreisik.dev"><strong>Email</strong></a>
+</p>
+
+---
+
+## Engineering, end to end
+
+I'm **Emre Ashak (Emre Işık)**, a software engineer at **Insider** focused on backend and platform engineering. I work where product requirements meet production constraints: service boundaries, data flows, integrations, infrastructure, and the failure modes between them.
+
+I like systems that are easy to reason about, observable in production, and deliberately simpler than the problem they solve.
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Backend systems</strong><br /><br />
+      APIs, asynchronous processing, event-driven workflows, and services designed around clear ownership.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Platform &amp; reliability</strong><br /><br />
+      Cloud infrastructure, observability, deployment paths, and operationally boring software.
+    </td>
+    <td width="34%" valign="top">
+      <strong>Commerce engineering</strong><br /><br />
+      Multi-tenant integrations and the backend plumbing that keeps products and platforms in sync.
+    </td>
+  </tr>
+</table>
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/emreisik95/sendthen">sendthen ↗</a></h3>
+      <p>Open-source, self-hosted email infrastructure with a Resend-compatible API, DKIM signing, webhooks, broadcasts, and inbound email.</p>
+      <p><code>TypeScript</code> <code>SQLite</code> <code>Docker</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://download.fyi">Download.fyi ↗</a></h3>
+      <p>Encrypted browser-to-browser file transfer built around WebRTC and client-side encryption, with no server in the data path.</p>
+      <p><code>Next.js</code> <code>WebRTC</code> <code>WebSockets</code></p>
+    </td>
+    <td width="34%" valign="top">
+      <h3><a href="https://github.com/emreisik95/wattmeter">Wattmeter ↗</a></h3>
+      <p>A native macOS menubar app that turns local Claude Code and Codex CLI session data into useful, private usage insights.</p>
+      <p><code>Swift</code> <code>SwiftUI</code> <code>AppKit</code></p>
+    </td>
+  </tr>
+</table>
+
+<p align="right"><a href="https://emre.zip"><strong>Explore more work →</strong></a></p>
+
+## Engineering focus
+
+| | |
+|---|---|
+| **Core** | Go, TypeScript, Node.js, PHP |
+| **Systems** | Distributed systems, REST and GraphQL APIs, asynchronous jobs, webhooks, multi-tenant architecture |
+| **Infrastructure** | AWS, Cloudflare, Docker, Kubernetes, Terraform |
+| **Data** | MySQL, Redis, SQLite |
+
+## How I work
+
+- **Start with the pressure points.** Understand the constraints and failure modes before drawing service boundaries.
+- **Keep complexity on a budget.** Architecture should make the system easier to change, not more impressive to explain.
+- **Design for the person on call.** Observable behavior and predictable recovery paths are product features.
+- **Own the whole outcome.** Move comfortably from product conversation to implementation, deployment, and iteration.
+
+---
+
+## Looking for the next hard problem
+
+I'm open to **senior backend and platform engineering roles across Europe** — remote or relocation. I'm an **EU citizen**, so no sponsorship is required.
+
+If you're building infrastructure, commerce platforms, developer tools, or a product with genuinely difficult backend problems, I'd like to hear about it.
+
+<p align="center">
+  <a href="mailto:hello@emreisik.dev"><strong>hello@emreisik.dev</strong></a>
+  &nbsp;·&nbsp;
   Muğla, Türkiye · UTC+3
-
-emre@ashak ~ % cat work-authorization.txt
-
-  ✓ EU work authorization — Bulgarian (EU) citizen
-  ✓ no visa, no sponsorship — paperwork-free hire
-  ✓ remote across Europe · open to relocation
-
-emre@ashak ~ % uptime
-
-  8+ yrs shipping software · 4 yrs @ Insider · 1,200+ brands on platforms I build
-
-emre@ashak ~ % _
-```
-
-## > now building
-
-**[Download.fyi](https://download.fyi)** — files that travel light.
-End-to-end encrypted P2P file sharing, no size limits, no servers in the middle. `Next.js · WebRTC · AES-256`
-
-**[Wattmeter](https://github.com/emreisik95/wattmeter)** ⚡ — native macOS menubar app for Claude Code usage.
-Live limits, cost breakdown, burn-rate forecast. Local-only, signed + notarized. `Swift · macOS`
-
-**[Scrumly](https://scrumly.tools)** — free Scrum tooling without the Atlassian tax.
-Retros, Planning Poker, Team Health — no signup, no seat fees. `Next.js · TypeScript · Cloudflare`
-
-→ more at **[emre.zip](https://emre.zip)**
-
-## > stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,ts,nextjs,react,vue,tailwind,laravel,php,nodejs,swift,redis,mysql,aws,cloudflare,docker,kubernetes,terraform,figma&perline=9&theme=dark" alt="stack" />
 </p>
-
-## > the numbers
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=emreisik95&hide_border=true&background=0B0F10&stroke=1C272B&ring=4ADE80&fire=4ADE80&currStreakNum=E6EDF0&sideNums=E6EDF0&currStreakLabel=4ADE80&sideLabels=8AA0A6&dates=5F7177&date_format=M%20j%5B%2C%20Y%5D" height="165" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=emreisik95&bg_color=0B0F10&color=4ADE80&line=4ADE80&point=86EFAC&area=true&area_color=4ADE80&hide_border=true&title_color=4ADE80&custom_title=contribution%20activity" alt="activity graph" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/emreisik95/emreisik95/output/snake.svg" />
-  </picture>
-</p>
-
-## > writing
-
-<ul>
-<!-- BLOG-POST-LIST:START --><li><a href="https://emreashak.medium.com/code-from-your-phone-like-a-boss-tmux-tailscale-termius-claude-code-developer-heaven-95119c704f20?source=rss-23c9ce1d0d90------2">Code From Your Phone Like a Boss: tmux + Tailscale + Termius + Claude Code = Developer Heaven</a> — Jul 4, 2025</li><li><a href="https://emreashak.medium.com/how-i-got-claude-3-5-sonnet-working-for-just-10-month-and-you-can-too-8c3147ca4f4d?source=rss-23c9ce1d0d90------2">Build Your Own AI Code Assistant: Get Claude 3.5 Sonnet in VS Code for $10/Month</a> — Jan 16, 2025</li><li><a href="https://emreashak.medium.com/embracing-the-future-php-8-3-laravel-10s-cutting-edge-features-c5d34a2278e8?source=rss-23c9ce1d0d90------2">Embracing the Future: PHP 8.3 &amp; Laravel 10’s Cutting-Edge Features</a> — Jan 6, 2024</li><li><a href="https://emreashak.medium.com/exploring-customized-ai-a-deep-dive-into-three-unique-gpt-models-dad97b6775a3?source=rss-23c9ce1d0d90------2">Exploring Customized AI: A Deep Dive into Three Unique GPT Models</a> — Nov 12, 2023</li><!-- BLOG-POST-LIST:END -->
-</ul>
-
-<br />
-
-<div align="center">
-<sub><i>shipping from Muğla · open to senior roles across Europe · hello@emreisik.dev</i></sub>
-</div>
