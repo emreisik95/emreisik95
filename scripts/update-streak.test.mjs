@@ -3,7 +3,7 @@ import test from "node:test";
 
 import {
   calculateStreaks,
-  extractContributionDays,
+  parseContributionHtml,
   renderStreakSvg,
 } from "./update-streak.mjs";
 
@@ -42,28 +42,16 @@ test("renders an accessible SVG with all contribution metrics", () => {
   assert.match(svg, /Last 365 days/);
 });
 
-test("extracts contribution days from the GraphQL calendar", () => {
-  const payload = {
-    data: {
-      user: {
-        contributionsCollection: {
-          contributionCalendar: {
-            weeks: [
-              {
-                contributionDays: [
-                  { date: "2026-07-19", contributionCount: 3 },
-                  { date: "2026-07-20", contributionCount: 8 },
-                ],
-              },
-            ],
-          },
-        },
-      },
-    },
-  };
+test("parses contribution counts from GitHub's public calendar HTML", () => {
+  const html = `
+    <td data-date="2026-07-19" id="day-1" class="ContributionCalendar-day"></td>
+    <tool-tip for="day-1">3 contributions on July 19th.</tool-tip>
+    <td data-date="2026-07-20" id="day-2" class="ContributionCalendar-day"></td>
+    <tool-tip for="day-2">No contributions on July 20th.</tool-tip>
+  `;
 
-  assert.deepEqual(extractContributionDays(payload), [
+  assert.deepEqual(parseContributionHtml(html), [
     { date: "2026-07-19", contributionCount: 3 },
-    { date: "2026-07-20", contributionCount: 8 },
+    { date: "2026-07-20", contributionCount: 0 },
   ]);
 });

@@ -33,15 +33,37 @@ export function calculateStreaks(days, todayIso) {
   return { total, current, longest };
 }
 
-export function extractContributionDays(payload) {
-  const weeks =
-    payload?.data?.user?.contributionsCollection?.contributionCalendar?.weeks;
+export function parseContributionHtml(html) {
+  const countsById = new Map();
 
-  if (!Array.isArray(weeks)) {
-    throw new Error("GitHub contribution calendar is missing from the response");
+  for (const match of html.matchAll(
+    /<tool-tip\b[^>]*for="([^"]+)"[^>]*>([^<]+)<\/tool-tip>/g,
+  )) {
+    const [, id, label] = match;
+    const countMatch = label.match(/^([\d,]+) contributions?\b/);
+    countsById.set(id, countMatch ? Number(countMatch[1].replaceAll(",", "")) : 0);
   }
 
-  return weeks.flatMap((week) => week.contributionDays);
+  const days = [];
+
+  for (const match of html.matchAll(/<td\b[^>]*>/g)) {
+    const tag = match[0];
+
+    if (!tag.includes("ContributionCalendar-day")) {
+      continue;
+    }
+
+    const date = tag.match(/\bdata-date="([^"]+)"/)?.[1];
+    const id = tag.match(/\bid="([^"]+)"/)?.[1];
+
+    if (!date || !id || !countsById.has(id)) {
+      throw new Error("GitHub contribution calendar contains an incomplete day");
+    }
+
+    days.push({ date, contributionCount: countsById.get(id) });
+  }
+
+  return days.sort((left, right) => left.date.localeCompare(right.date));
 }
 
 export function renderStreakSvg({ total, current, longest, generatedAt }) {
@@ -90,12 +112,7 @@ export function renderStreakSvg({ total, current, longest, generatedAt }) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
   const username = process.env.GITHUB_USERNAME ?? "emreisik95";
-
-  if (!token) {
-    throw new Error("GITHUB_TOKEN or GH_TOKEN is required");
-  }
 
   const now = new Date();
   const todayIso = now.toISOString().slice(0, 10);
@@ -104,53 +121,32 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   from.setUTCHours(0, 0, 0, 0);
   const to = new Date(now);
   to.setUTCHours(23, 59, 59, 999);
+  const years = [...new Set([from.getUTCFullYear(), to.getUTCFullYear()])];
+  const calendars = await Promise.all(
+    years.map(async (year) => {
+      const calendarUrl = new URL(`https://github.com/users/${username}/contributions`);
+      calendarUrl.searchParams.set("from", `${year}-01-01`);
+      calendarUrl.searchParams.set("to", `${year}-12-31`);
 
-  const query = `
-    query ContributionCalendar($login: String!, $from: DateTime!, $to: DateTime!) {
-      user(login: $login) {
-        contributionsCollection(from: $from, to: $to) {
-          contributionCalendar {
-            weeks {
-              contributionDays {
-                date
-                contributionCount
-              }
-            }
-          }
-        }
+      const response = await fetch(calendarUrl, {
+        headers: {
+          Accept: "text/html",
+          "User-Agent": "emreisik95-profile-streak",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`GitHub contribution calendar failed with ${response.status}`);
       }
-    }
-  `;
 
-  const response = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-      "User-Agent": "emreisik95-profile-streak",
-    },
-    body: JSON.stringify({
-      query,
-      variables: {
-        login: username,
-        from: from.toISOString(),
-        to: to.toISOString(),
-      },
+      return parseContributionHtml(await response.text());
     }),
-  });
+  );
 
-  if (!response.ok) {
-    throw new Error(`GitHub GraphQL request failed with ${response.status}`);
-  }
-
-  const payload = await response.json();
-
-  if (payload.errors?.length) {
-    throw new Error(payload.errors.map((error) => error.message).join("; "));
-  }
-
-  const days = extractContributionDays(payload).filter((day) => day.date <= todayIso);
+  const fromIso = from.toISOString().slice(0, 10);
+  const days = calendars
+    .flat()
+    .filter((day) => day.date >= fromIso && day.date <= todayIso);
   const metrics = calculateStreaks(days, todayIso);
   const svg = renderStreakSvg({ ...metrics, generatedAt: todayIso });
   const outputUrl = new URL("../assets/github-streak.svg", import.meta.url);

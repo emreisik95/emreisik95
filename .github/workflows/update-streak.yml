@@ -24,7 +24,6 @@ jobs:
       - name: Generate streak card
         run: node scripts/update-streak.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: emreisik95
 
       - name: Publish updated card
